@@ -32,7 +32,7 @@ function App() {
     <>
     <div className='h-screen bg-[#00246B] flex items-center justify-center'>
     <div className='bg-[#408EC6]  h-auto w-5/12 flex flex-col items-center rounded-md p-6'>
-    <h2 className='my-6 text-2xl font-bold'>Weather App</h2>
+    <h2 className='my-6 text-2xl font-bold text-white'>Weather App</h2>
     <Search onsearch={fetchWeather} />
       {error && <ErrorData message={error}/>}
       {weatherData && <WeatherDisplay data={weatherData} />}
